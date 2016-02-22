@@ -1,0 +1,43 @@
+
+body {
+	text-align: center;
+	background: url("http://i.imgur.com/Ki12xKv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-color: #36393B;
+    margin: 2.5%;
+   	font-family: Helvetica;
+   	font-size: 18px;
+   	padding: 5% 0cm 0cm 0cm;
+   	color: #fff;
+}
+
+
+
+p, ul{
+	list-style-type: none;
+}
+
+hr{
+	width: 50%;
+}
+
+.descrip{
+	background-color: rgba(54, 57, 59, 0.8);
+	padding: 0.5% 2% 2% 2%;
+}
+#slogan {
+
+	font-size: 140%;
+	font-weight: 100;
+	color: #fff;
+	font-style: italic;
+
+}
+
+#author {
+/*	color:#A5D8FF;
+	background-color: black;
+	padding: 5% 0% 5% 5%;*/
+}

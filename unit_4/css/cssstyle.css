@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,600italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+body {
+	text-align: center;
+	background: url("http://i.imgur.com/Ki12xKv.jpg2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-color: #36393B;
+    margin: 2.5%;
+   	/*font-family: Helvetica;
+   	font-size: 18px;*/
+   	padding: 5% 0cm 0cm 0cm;
+   	color: #fff;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	letter-spacing: 0.01em;
+}
+
+p {
+
+	font-size: 1em;
+}
+
+ul, li {
+	font-family: 'Merriweather', serif;
+	list-style-type: none;
+}
+
+hr{
+	width: 50%;
+}
+
+.descrip{
+	background-color: rgba(54, 57, 59, 0.8);
+	padding: 0.5% 2% 2% 2%;
+	font-family: 'Merriweather', serif;
+}
+#slogan {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+	color: #fff;
+	font-style: italic;
+
+}
+
+#author {
+	font-family: 'Merriweather', serif;
+/*	color:#A5D8FF;
+	background-color: black;
+	padding: 5% 0% 5% 5%;*/
+}

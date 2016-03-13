@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,600italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+body {
+	text-align: center;
+	background: url("http://i.imgur.com/Ki12xKv.jpg2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-color: #36393B;
+    margin: 0.2em 2.5%;
+   	padding: 0.2em 0cm 0cm 0cm;
+   	color: #fff;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	letter-spacing: 0.01em;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	font-family: 'Merriweather', serif;
+	list-style: none;
+}
+
+
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+	font-style: italic;
+	margin: 0.1em;
+	padding: 0.1em;
+}
+
+#emphasis {
+	font-style: italic;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+	padding: 0.5% 2%;
+	margin: 1.2em;
+
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+/*main {
+	padding: 0.5% 2%;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+
+}*/
+
+#other {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;	
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%
+;}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+footer {
+	padding: 0.5% 2%;
+	font-family: 'Merriweather', serif;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+img {
+	width: 70%;
+}

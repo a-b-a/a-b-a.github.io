@@ -9,58 +9,73 @@
 	</head>
 
 	<body>
-
-		<nav>
-		<div><img src="http://i.imgur.com/4Ekf0c8.png" id="logo"></div>		
-		<ul>
+    	<header class="clearfix">
+			<div><a href=index.html><img src="http://i.imgur.com/4Ekf0c8.png" id="logo"></a></div>
+			<nav class="clearfix">
 			
-			<li id="buttons">Main</li>
-			<li id="buttons">Contact</li>
-			<li id="buttons">Projects</li>
-			<li id="buttons">Resume</li>
+				<ul class="clearfix">
+					
+					<li id="buttons" class="clearfix"><a href="https://www.google.com.au">Overview</a></li>
+					<li id="buttons" class="clearfix"><a href="https://www.google.com.au">Contact</a></li>
+					<li id="buttons" class="clearfix"><a href="https://www.google.com.au">Projects</a></li>
+					<li id="buttons" class="clearfix"><a href="https://www.google.com.au">Resume</a></li>
 
-		</ul>
-			 <!-- Logo + Buttons go here in divs. Main/OVerview, contact, projects, resume (doesnt have to work) each should have a hover state, float left--> 
-		</nav>
-		
-
-		<header><!-- his should be a nice blue colour - USE 3197e0 -->
-			<div>
-			<h1 id="mainTitle">Patrick Abadilla</h1>
-			<h3 id="mainSubtitle">Web Developer</h3>
-			</div>
+				</ul>
+					 <!-- Logo + Buttons go here in divs. Main/OVerview, contact, projects, resume (doesnt have to work) each should have a hover state, float left-->
+			</nav>
 		</header>
 
-		<div id="twoColumn">
+		<div id="titleBar"><!-- his should be a nice blue colour - USE 3197e0 -->
+			<h1 id="mainTitle">Patrick Abadilla</h1>
+			<h3 id="mainSubtitle">Web Developer</h3>
+		</div>
+
+		<div id="twoColumn" class="clearfix">
 			<div id="left"> <!-- add pic of me here.  possibly float this right, while text go left?-->
-			<img src="http://i.imgur.com/4Ekf0c8.png" id="picture">
+				<img src="http://i.imgur.com/4Ekf0c8.png" id="pictureLeft" class="clearfix">
 			</div>
 			
 			<div id="right"><!-- Do a new p tag for each paragraph tag (legit lol) for the list at the end, just list them horizontally  -->
-			<p class="text"> Hey, I'm Patrick Abadilla and I'm an <span id="emphasis">aspiring</span> web developer.</p>
+				<p id="indent"> Hey, I'm Patrick Abadilla and I'm an <span id="emphasis">aspiring</span> web developer.</p>
 
-			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. </p>
-			<ul>
-				<li id="listTitle">My well versed languages are:</li>
-				<li id="textList">HTML,</li>
-				<li id="textList">CSS,</li>
-				<li id="textList">Javascript,</li>
-				<li id="textList">English</li>
-			</ul>
+				<p id="indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. </p>
+
+				<p id="indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. </p>
+				<ul>
+					<li id="listTitle">My well versed languages are:</li>
+					<li id="textList">HTML,</li>
+					<li id="textList">CSS,</li>
+					<li id="textList">Javascript,</li>
+					<li id="textList">English</li>
+				</ul>
 			</div>
 		</div>
 
 		<!-- Projects go here. Have this like the first section, just photo and short desc for each project, but we will only have one because this site will literally be the first project -->
 
-		<div id="other">
+		<div id="projects" class="clearfix">
 			<h1 id="textTitle"> Projects </h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
+			<p id="indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div id="projectOne" class="clearfix">
+				<div id="projectSection" class="clearfix">
+					<h2 id="projectTitle"> Resume Website </h2>
+					<p id="indent">This is a website created as an online resume of sorts. It is in itself a web development project of mine. (Yo dawg)</p>
 
+					<p id="indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+					<p id="indent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			<div class="clearfix" id="pictureRight"> <a href=https://i.imgur.com/GgVAddM.png> <img src="https://i.imgur.com/GgVAddM.png" class="clearfix" id="projectPic"></a></div>
+			</div>
+
+		</div>
 		
 		<!-- Footer should have my contact details. Email, LinkedIn, GitHub - If i want to go beyond, i can make a themed button for the site, otherwise simply using their logos as buttons is fine. -->
-		<footer>
-			<p id="author">Patrick Abadilla<br><a href="mailto:patrick.abadilla2@gmail.com?subject=Hello%20Patrick!">Email me!</a><br><a href="https://www.google.com.au/?gws_rd=ssl#q=cool+websites">See my other cool sites!</a></p>
+		
+		<footer class="clearfix">
+			<div class="clearfix">
+				<p id="author"> &copy; Patrick Abadilla<br><a href="mailto:patrick.abadilla2@gmail.com?subject=Hello%20Patrick!">Email me!</a><br><a href="https://www.google.com.au/?gws_rd=ssl#q=cool+websites">See my other cool sites!</a></p>
+			</div>
 		</footer>
 		<!-- copyright lol -->
 	</body>

@@ -1,8 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 /*No background picture or colour. Each section is jsut a different colour slightly, and will contain the text.*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
 
 body {
     font-size: 14px;
@@ -10,6 +29,12 @@ body {
     padding: 0px;
     border: 0px;
     font-family: 'Tahoma', sans-serif;
+}
+
+header {
+    padding: 5px 5px 0 5px;
+    background-color: #3197e0;
+    font-size: 4px;
 }
 
 h1 { /*Should be white text*/
@@ -21,22 +46,27 @@ h3 {/*Should be white text*/
 }
 
 nav {
-    background-color: #afc9db; /*WHY DOESNT THIS WORK*/
     font-family: 'Oswald', sans-serif;
-    padding: 45px;
+    padding: 0px;
 }
 
-header {
+#titleBar {
     background-color: #3197e0;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    padding: 25px 0px 25px 0px;
+    padding: 55px 0px 60px 0px;
     color: white;
-    letter-spacing: .05em;
+    letter-spacing: .02em;
+    font-size: 40px;
 }
 
 img {
-    float: none;
+    float: ;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -45,48 +75,81 @@ li {
 }
 
 footer {
-    padding: 25px 50px;
+    padding: 0.5vw 12vw;
+    /*background-color: black;*/
 }
 
 #buttons{
-    width: 100px;
-    height: 20px;
+    width: 8.5vw;
+    height: 50px;
     text-align: center;
+    color: white;
+    float: left;
+    font-size: 1.5vw;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: .01em;
+    line-height: 50px;
 }
 
 #logo {
     width: 50px;
+    padding: 0 2.5em 0 0;
     float: left;
 }
 
 #mainTitle {
-    font-size: 3em;
+    font-size: 4vw;
     margin: 0px;
 }
 
 #mainSubtitle {
-    font-size: 1.8em;
-     margin: 0px;
+    font-size: 2.4vw;
+    margin: 0px;
+    font-weight: 300;
 }
 
 #twoColumn {
     float: left;
-    padding: 25px 50px;
+    padding: 0.5vw 12vw;
 }
 
 #left {
+    float:left;
 }
 
-#picture {
+#pictureLeft {
     width: 175px;
+    float: left;
+    padding: 25px;
+}
+
+#pictureRight {
+
+    float: right;
+    
+}
+
+#projectSection {
+    float:left;
+    width: 75%;
+}
+
+#projectPic {
+    width: 300px;
+    margin: 45px 15px;
+    border: 1px solid black;
+}
+
+#indent {
+    text-indent: 2em;
+    text-align: auto;
 }
 
 #right {
+    float: none;
 }
 
-.text {
-
-}
 
 #listTitle {
 
@@ -96,10 +159,10 @@ footer {
    margin: 0 0 0 .4em;
 }
 
-#other {
+#projects {
     float: left;
-    background-color: #f0def3;
-    padding: 25px 50px;
+    background-color: #white;
+    padding: 0.5vw 12vw;
 }
 
 #textTitle {
@@ -108,8 +171,74 @@ footer {
     letter-spacing: -.02em;
 }
 
+#projectTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: -.02em;
+}
 
+#projectOne {
+    float: left;
+}
+
+/*fix this tomorrow!!*/
 
 #author {
     float: left;
+    color: black;
+    text-align: right;
+}
+
+@media only screen and (min-width:420px) and (max-width:1850px) {
+    #pictureRight {
+        float: none;
+        text-align: center;
+    }
+
+    #projectSection {
+    width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1200px) {
+    #buttons {
+        font-size: 20pt;
+        width: 25%;
+    }
+
+    #logo {
+        width: 0%;
+    }
+
+
+
+}
+
+@media only screen and (max-width:600px) {
+    #buttons {
+        font-size: 12pt;
+        width: 25%;
+    }
+
+    #logo {
+        width: 0%;
+    }
+
+    #pictureLeft {
+        float: none;
+    }
+
+    #left {
+        float: none;
+        text-align: center;
+    }
+
+    #mainTitle {
+        font-size: 19.5pt;
+    }
+
+    #mainSubtitle {
+        font-size: 11pt;
+    }
 }

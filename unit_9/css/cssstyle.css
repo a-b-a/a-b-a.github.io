@@ -75,8 +75,15 @@ li {
 }
 
 footer {
-    padding: 0.5vw 12vw;
-    /*background-color: black;*/
+    right: 0;
+    left: 0;
+/*    bottom: 0; for fixed position footer
+    position: fixed;*/
+    position: absolute; /*for bottom footer*/
+    width: 100%;
+    height: 100px;
+    background-color: #585b5e;
+    text-align: center;
 }
 
 #buttons{
@@ -125,13 +132,9 @@ footer {
 }
 
 #pictureRight {
-
-    float: right;
-    
 }
 
 #projectSection {
-    float:left;
     width: 75%;
 }
 
@@ -160,7 +163,6 @@ footer {
 }
 
 #projects {
-    float: left;
     background-color: #white;
     padding: 0.5vw 12vw;
 }
@@ -178,15 +180,18 @@ footer {
 }
 
 #projectOne {
-    float: left;
 }
 
 /*fix this tomorrow!!*/
 
 #author {
-    float: left;
-    color: black;
+    float: none;
+    color: white;
     text-align: center;
+}
+
+#email {
+    color: black;
 }
 
 @media only screen and (min-width:420px) and (max-width:1850px) {
@@ -250,7 +255,10 @@ footer {
 
     #projectPic {
         width: 200px;
-        
         border: 1px solid black;
+        left: 0;
+        right: 0;
+        display: block;
+        text-align: center;
     }
 }

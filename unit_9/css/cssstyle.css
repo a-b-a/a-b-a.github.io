@@ -186,7 +186,7 @@ footer {
 #author {
     float: left;
     color: black;
-    text-align: right;
+    text-align: center;
 }
 
 @media only screen and (min-width:420px) and (max-width:1850px) {
@@ -196,7 +196,7 @@ footer {
     }
 
     #projectSection {
-    width: 100%;
+        width: 100%;
     }
 
 }
@@ -211,7 +211,9 @@ footer {
         width: 0%;
     }
 
-
+    #projectSection {
+        width: 100%;
+    }
 
 }
 
@@ -240,5 +242,15 @@ footer {
 
     #mainSubtitle {
         font-size: 11pt;
+    }
+
+#projectSection {
+        width: 100%;
+    }
+
+    #projectPic {
+        width: 200px;
+        
+        border: 1px solid black;
     }
 }
